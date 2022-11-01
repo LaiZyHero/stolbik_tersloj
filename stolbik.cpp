@@ -21,12 +21,12 @@ if (a2 != 0) {
 s1 += a2 * b2 * pow(10, j);
 P += 1;
 }
-//cout « a2 « " * " « b2 « endl;
+//cout << a2 << " * " << b2 << endl;
 a1 = a1 / 10;
 ++j;
 }
 }
-//cout « "summ = " « s1 « endl;
+//cout << "summ = " << s1 << endl;
 s1 *= pow(10, i);
 b1 = b1 / 10;
 ++i;
